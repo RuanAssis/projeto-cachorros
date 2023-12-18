@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    max-width: 83rem;
+    margin: 40px auto;
+    background-color: #8ECAE6;
+}
+
+nav.menu-lateral{
+    width:5rem;
+    height: 100%;
+    background-color: #FB8500;
+    padding: 2.5rem 0 2.5rem 1%;
+    box-shadow: 0.1875rem 0 0;
+    color:#f8bf86;
+
+    position: fixed;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+h2.titulos{
+    color:#fff;
+    font-size: 2.375rem;
+    text-align: center;
+}
+
+h2.titulos span{
+    color: #05055e;
+}
+
+.flex{
+    display: flex;
+}
+
+.expandir{
+    width: 100%;
+    padding-left: 0.625rem;
+}
+
+.expandir >i{
+    color:#fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.topicos{
+    height: 100%;
+    list-style-type: none;
+}
+
+.topicos li.item-menu{
+    transition: .2s;
+}
+
+.topicos li.item-menu:hover{
+    background: #f8bf86;
+}
+.topicos li.item-menu a{
+    color: #fff;
+    font-size: 1.25rem; 
+    padding: 1.25rem 4%;
+    display: flex;
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+.topicos li.item-menu a .txt-link{
+    margin-left: 2.5rem;
+}
+
+.topicos li.item-menu a .icon > i{
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+}
+
+nav.menu-lateral:hover{
+    width: 18.75rem;
+}
+
+.interface .cabeçalho{
+    font-size: 3rem;
+    font-family: Rubik Bubbles;
+    color:#05055e;
+}
+
+header{
+    padding: 10px;
+}
+
+/* Estilo do topo do site */
+section.topodosite{
+    padding: 2.5rem 4%;
+
+}
+
+section.topodosite .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 5.625rem;
+}
+
+.topodosite h1{
+    font-size: 2.625rem;
+    line-height: 2.5rem;
+    color:#fff;
+}
+
+.topodosite .txt-topodosite h1 span{
+    color: #05055e;
+
+}
+
+.topodosite .txt-topodosite h2{
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #023047;
+    border: 0;
+    border-radius:30px;
+    cursor:pointer;
+    color:#fff;
+}
+
+.contato button:hover{
+    box-shadow: 0 0 0.5rem #023047;
+
+}
+.topodosite .img-topodosite img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:1.875rem;
+    }
+}
+
+/* Estilo  dos serviços */
+section.especialidades{
+    padding: 2.5rem 4%;
+}
+
+section.especialidades .flex{
+    gap: 3.75px;
+    display: block;
+    margin-bottom: 1.25px;
+}
+.especialidades .hospedagens-box{
+    color:#fff;
+    padding: 2.5rem;
+    border-radius: 1.5625rem;
+    border: 0.125rem solid #FB8500;
+    margin-top:2.8125rem;
+    transition: .2s;
+}
+
+.especialidades .hospedagens-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1.25rem #ffffff7a;
+}
+
+.especialidades .hospedagens-box h3{
+    font-size:1.75rem;
+    color: #023047;
+    margin: 0.9375rem 0;
+}
+
+/* Estilo do sobre */
+
+section.section{
+    padding: 2.5rem 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap:1.25rem;
+}
+
+.sobre .txt-sobre{
+    color:#fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size:2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.875rem;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #023047;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 1.25rem 0;
+    text-align: justify;
+}
+
