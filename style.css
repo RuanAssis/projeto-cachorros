@@ -474,6 +474,10 @@ footer .line-footer{
         text-align: center;
     }
 
+    .card-preço ul li:hover{
+        text-decoration: none;
+    }
+
     .card-preço{
         flex: 1;
         max-width: 22.5rem;
@@ -507,7 +511,7 @@ footer .line-footer{
     .galeria img {
         width: 350px; /* Garante que a imagem ocupe a largura total do contêiner */
         height: 350px; /* Mantém a proporção da imagem */
-        margin: 0px 20px 0px -7px; /* Adiciona margem entre as imagens */
+        margin: 0px 20px 0px -12px; /* Adiciona margem entre as imagens */
     }
 
     .galeria .titulos{
