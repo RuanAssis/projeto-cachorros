@@ -414,7 +414,7 @@ footer .line-footer{
     .menu-lateral{
         display:none;
     }
-    
+
     /* TOPO DO SITE */
 
     section.topodosite .flex{
@@ -527,3 +527,22 @@ footer .line-footer{
         text-align: center;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .preços .tabela-titulo{
+        font-size:2.125rem;
+        line-height: 2.1875rem;
+        margin:  -80px 20px 0px 0 ;
+        text-align: center;
+    }
+
+    .galeria .interface{
+        width: 100%;
+        margin:0;
+    }
+
+
+}
+
+
+    
