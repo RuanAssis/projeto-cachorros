@@ -397,10 +397,8 @@ footer .line-footer{
     color:#05055e;
 }
 
-/* Estilos padrão */
 
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     /* CLASSES GERAIS */
    .flex{
     flex-direction: column-reverse;
@@ -416,7 +414,7 @@ footer .line-footer{
     .menu-lateral{
         display:none;
     }
-
+    
     /* TOPO DO SITE */
 
     section.topodosite .flex{
