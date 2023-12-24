@@ -467,6 +467,26 @@ footer .line-footer{
         flex-direction: column;
     }
 
+    .preços .tabela-titulo{
+        font-size:2.125rem;
+        line-height: 2.1875rem;
+        margin:  -50px 20px 0px 0 ;
+        text-align: center;
+    }
+
+    .card-preço{
+        flex: 1;
+        max-width: 22.5rem;
+        background-color: #fff;
+        margin: 20px -900px;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        color: #2d2d2d;
+        transition: .3s linear;
+    }
+
+    
 
     .tabela-preço {
         width: 50%; /* Ajuste a largura conforme necessário */
@@ -479,14 +499,20 @@ footer .line-footer{
      .galeria .flex {
         flex-wrap: wrap;
         display: flex;
-        justify-content: space-around;
-        flex-direction: column
+        flex-direction: column;
+        align-items:center;
+        margin: 0 350px 0 20px;
     }
 
     .galeria img {
-        width: 500px; /* Garante que a imagem ocupe a largura total do contêiner */
-        height: auto; /* Mantém a proporção da imagem */
-        margin: 20px; /* Adiciona margem entre as imagens */
+        width: 350px; /* Garante que a imagem ocupe a largura total do contêiner */
+        height: 350px; /* Mantém a proporção da imagem */
+        margin: 0px 20px 0px -7px; /* Adiciona margem entre as imagens */
+    }
+
+    .galeria .titulos{
+        font-size:2.125rem;
+        line-height: 2.1875rem;
     }
 
     /* RODAPÉ */
