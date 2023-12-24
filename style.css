@@ -474,8 +474,8 @@ footer .line-footer{
         text-align: center;
     }
 
-    .card-preço ul li:hover{
-        text-decoration: none;
+    .card-preço ul li{
+        list-style: none;
     }
 
     .card-preço{
