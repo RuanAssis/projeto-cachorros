@@ -189,7 +189,7 @@ section.especialidades .flex{
 
 /* Estilo do sobre */
 
-section.section{
+section.sobre{
     padding: 2.5rem 4%;
 }
 
@@ -295,42 +295,42 @@ section.sobre .flex{
 }
 
 .card-preço li{
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: uppercase;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 h2.titulo-preço{
     color:#fff;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /* Estilo galeria de fotos */
 
 .galeria {
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .galeria .interface {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
 .galeria .titulos {
     font-size: 2.5rem;
     color: #05055e;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .galeria img {
-    width: 400px; /* Defina a largura desejada */
-    height: 400px; /* Defina a altura desejada */
+    width: 25rem; /* Defina a largura desejada */
+    height: 25rem; /* Defina a altura desejada */
     object-fit: cover; /* Garante que a imagem cobre completamente a área especificada */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .galeria img:hover {
@@ -339,10 +339,10 @@ h2.titulo-preço{
 
 .galeria a {
     width: calc(33.33% - 10px); /* 10px de margem entre as imagens */
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     text-decoration: none;
     color: #333;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .galeria .flex {
@@ -354,8 +354,8 @@ h2.titulo-preço{
 /* Estilo do contato */
 
 footer{
-    padding: 40px 4%;
-    margin: 40px;
+    padding: 2.5rem 4%;
+    margin: 2.5rem;
     box-shadow: 0 0 60px 60px #ffffff1d;
 }
 
@@ -364,20 +364,20 @@ footer .flex{
 }
 
 .btn-social button{
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     border: none;
     background-color: #FB8500;
-    font-size: 22px;
+    font-size: 1.375rem;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 0 0.3125rem;
     transition: .2s;
 }
 
 footer .line-footer p i{
     color: #05055e;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 footer .line-footer p a{
@@ -385,14 +385,101 @@ footer .line-footer p a{
 }
 
 footer .line-footer{
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 .borda{
-    border-top: 2px solid #05055e; 
+    border-top: 0.125rem solid #05055e; 
 }
 
 .rodapé h3{
-    font-size: 30px;
+    font-size: 1.875rem;
     color:#05055e;
+}
+
+/* Estilos padrão */
+
+
+@media screen and (max-width: 1200px) {
+    /* CLASSES GERAIS */
+   .flex{
+    flex-direction: column-reverse;
+   }
+
+   h2.titulos{
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+}
+   
+   
+    /* CABEÇALHO */
+    .menu-lateral{
+        display:none;
+    }
+
+    /* TOPO DO SITE */
+
+    section.topodosite .flex{
+        gap: 2.5rem;
+    }
+
+    section.topodosite{
+        padding: 1.25rem 8%;
+    
+    }
+    .topodosite h1{
+        font-size: 2rem;
+    }
+
+    .topodosite .img-topodosite img{
+        width: 100%;
+    }
+
+    /* ESPECIALIDADES */
+    section.especialidades{
+        padding: 2.5rem 8%;
+    }
+
+    /* SOBRE */
+
+    section.sobre{
+        padding: 2.5rem 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size:2.125rem;
+        line-height: 2.1875rem;
+        text-align: center;
+    }
+     .img-sobre img{
+        width:100%;
+     }
+
+     /* PREÇOS */
+     section.preços{
+        padding: 80px 8%;
+     }
+
+     /* FOTOS */
+
+     .galeria .flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .galeria img {
+        width: 500px; /* Garante que a imagem ocupe a largura total do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+        margin: 10px; /* Adiciona margem entre as imagens */
+    }
+
+    /* RODAPÉ */
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer{
+        text-align: center;
+    }
 }
