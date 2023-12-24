@@ -21,6 +21,7 @@ nav.menu-lateral{
     padding: 2.5rem 0 2.5rem 1%;
     box-shadow: 0.1875rem 0 0;
     color:#f8bf86;
+    z-index:2;
 
     position: fixed;
     top: 0;
@@ -225,7 +226,7 @@ section.sobre .flex{
 
 .tabela-titulo {
     font-size: 2.375rem;
-    color: #023047;
+    color: #05055e;
     position: absolute;
     top: 0;
     left: 50%;
@@ -302,4 +303,96 @@ section.sobre .flex{
 h2.titulo-preço{
     color:#fff;
     font-size: 30px;
+}
+
+/* Estilo galeria de fotos */
+
+.galeria {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.galeria .interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.galeria .titulos {
+    font-size: 2.5rem;
+    color: #05055e;
+    margin-bottom: 20px;
+}
+
+.galeria img {
+    width: 400px; /* Defina a largura desejada */
+    height: 400px; /* Defina a altura desejada */
+    object-fit: cover; /* Garante que a imagem cobre completamente a área especificada */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.galeria a {
+    width: calc(33.33% - 10px); /* 10px de margem entre as imagens */
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+}
+
+.galeria .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilo do contato */
+
+footer{
+    padding: 40px 4%;
+    margin: 40px;
+    box-shadow: 0 0 60px 60px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FB8500;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+footer .line-footer p i{
+    color: #05055e;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color:#fff;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #05055e; 
+}
+
+.rodapé h3{
+    font-size: 30px;
+    color:#05055e;
 }
