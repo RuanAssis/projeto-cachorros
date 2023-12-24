@@ -435,6 +435,10 @@ footer .line-footer{
         width: 100%;
     }
 
+   .cabeçalho{
+       text-align: center;
+    }
+
     /* ESPECIALIDADES */
     section.especialidades{
         padding: 2.5rem 8%;
@@ -456,21 +460,33 @@ footer .line-footer{
      }
 
      /* PREÇOS */
-     section.preços{
-        padding: 80px 8%;
-     }
+     .preços {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+    .tabela-preço {
+        width: 50%; /* Ajuste a largura conforme necessário */
+        margin: 10px;
+    }
+
 
      /* FOTOS */
 
      .galeria .flex {
         flex-wrap: wrap;
-        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column
     }
 
     .galeria img {
         width: 500px; /* Garante que a imagem ocupe a largura total do contêiner */
         height: auto; /* Mantém a proporção da imagem */
-        margin: 10px; /* Adiciona margem entre as imagens */
+        margin: 20px; /* Adiciona margem entre as imagens */
     }
 
     /* RODAPÉ */
