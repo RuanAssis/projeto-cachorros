@@ -529,20 +529,51 @@ footer .line-footer{
 }
 
 @media screen and (max-width: 375px) {
-    .preços .tabela-titulo{
-        font-size:2.125rem;
-        line-height: 2.1875rem;
-        margin:  -80px 20px 0px 0 ;
-        text-align: center;
+    .galeria img {
+        width: 20rem; /* Defina a largura desejada */
+        height: 20rem; /* Defina a altura desejada */
+        padding: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .galeria img {
+        width: 20rem; /* Defina a largura desejada */
+        height: 20rem; /* Defina a altura desejada */
+        padding: 1rem;
+    }
+    
+    .galeria a {
+        margin: 0 0px 0 130px;
     }
 
-    .galeria .interface{
-        width: 100%;
-        margin:0;
-    }
+    
+}
 
+@media screen and (min-width: 1024px){
+    .galeria img {
+        width: 25rem; /* Defina a largura desejada */
+        height: 23rem; /* Defina a altura desejada */
+        padding: 1rem;
+    }
+    
+    .galeria a {
+        margin: 0 0px 0 130px;
+    }
 
 }
 
-
+@media screen and (min-width: 1440px){
+    .galeria img {
+        width: 30rem; /* Defina a largura desejada */
+        height: 25rem; /* Defina a altura desejada */
+        padding: 1rem;
+    }
     
+    .galeria a {
+        margin: 0 0px 0 130px;
+    }
+
+}
